@@ -1,0 +1,14 @@
+body, h1, h2, h3, h4, h5 {
+font-family: Helvetica, Arial, sans-serif;
+color: #464646;
+}
+
+h1, h2, h3, h4, h5 {
+text-transform: uppercase; letter-spacing: -0.05em;
+}
+
+img.image-left, p.image-left img { float: left; margin: 0 20px 20px 0; }
+img.image-right, p.image-right img { float: right; margin: 0 0 20px 20px; }
+img.image-center, p.image-center img { display: block; width: auto; margin: 0 auto 1.5em; }
+
+a.button, p.button a {padding:10px 20px;background:#0A1C80; border:none; color:#FFFFF0; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; text-decoration: none;}

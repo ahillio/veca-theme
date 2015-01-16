@@ -1,0 +1,124 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+
+img.image-left, p.image-left img { float: left; margin: 0 20px 20px 0; }
+img.image-right, p.image-right img { float: right; margin: 0 0 20px 20px; }
+img.image-center, p.image-center img { display: block; width: auto; margin: 0 auto 1.5em; }
+
+/* OM MAXIMENU */
+#region-menu { margin-left: 10px; margin-right: 10px; }
+.om-maximenu.om-maximenu-block ul.om-menu,
+.om-maximenu.om-maximenu-block.om-maximenu-row ul.om-menu li.om-leaf,
+.om-maximenu.om-maximenu-block.om-maximenu-row ul.om-menu li.om-leaf .om-link { float: left; height: 45px; }
+
+.leaf-home, .leaf-about-us, .leaf-legislative-agenda, .leaf-join-the-alliance, .leaf-get-involved, .leaf-news {background: none; font-weight:normal; color:#464646;}
+
+.not-front a.om-link.link-home.om-autoscroll {color:#464646;}
+
+.no-touch .leaf-home:hover, .leaf-home.open {background-color: #A31A22; color:white; }
+.no-touch .leaf-about-us:hover, .leaf-about-us.open {background-color: #E64A1A; color:white; }
+.no-touch .leaf-legislative-agenda:hover, .leaf-legislative-agenda.open {background-color: #EAAF21; color:white; }
+.no-touch .leaf-join-the-alliance:hover, .leaf-join-the-alliance.open {background-color: #01451E; color:white; }
+.no-touch .leaf-get-involved:hover, .leaf-get-involved.open {background-color: #0B1C80; color:white; }
+.no-touch .leaf-news:hover, .leaf-news.open {background-color: #6E0B53; color:white; }
+
+#navicon {display:none;}
+.js #om-maximenu-mega-menu {display: inline-block;}
+.om-maximenu .om-maximenu-content { width: 696px; position:absolute; top: 45px; left: 0; }
+.om-maximenu-content .block {width:212px; float:left; padding: 19px 10px;}
+.om-maximenu-content .block-menu-id-menu-childrens-agenda { width: 440px; }                             
+.om-maximenu-content .block-block-id-17, .om-maximenu-content .block.block-block-id-5.last { background: white; }
+.om-maximenu-content .block h3 { font-size: 21px; margin-bottom: 20px; }
+.om-maximenu-content .block .view-content h3 { font-size: 16px; margin-bottom: 10px; }
+.om-maximenu-content .block .view-content p { margin-bottom: 10px; }
+.js .om-maximenu .om-maximenu-content .block .content { display: block; }
+ul#om-menu-mega-menu.collapsed {position:relative; left:0;}
+.om-maximenu.om-maximenu-block.om-maximenu-row ul.om-menu li.om-leaf {float:left;}
+
+li.om-leaf .om-link:after { content: ''; position: absolute; top: 45px; left: 0; height: 0; width: 0; }
+li.om-leaf.open .om-link:after { z-index: 501; top: 47px; }
+li.om-leaf.leaf-home.open .om-link:after { top: 45px; }
+
+li.om-leaf.leaf-home {width: 80px;}
+.front li.om-leaf.leaf-home { background: #A31A22; color: #fff !important; font-weight: bold; width: 80px; }
+.front li.om-leaf.leaf-home .om-link:after { border-top: 19px solid #A31A22; border-left: 40px solid transparent; border-right: 40px solid transparent; }
+.no-touch li.om-leaf.leaf-home:hover .om-link:after { border-top: 19px solid #A31A22; border-left: 40px solid transparent; border-right: 40px solid transparent; }
+
+li.leaf-about-us .om-maximenu-content h3 {color: #E64A1A;}
+li.om-leaf.leaf-about-us {width: 100px;}
+.sitearea-about li.om-leaf.leaf-about-us { background: #E64A1A; color: #fff; font-weight: bold; width: 100px; }
+.sitearea-about li.om-leaf.leaf-about-us .om-link:after { border-top: 19px solid #E64A1A; border-left: 50px solid transparent; border-right: 50px solid transparent; }
+.no-touch li.om-leaf.leaf-about-us:hover .om-link:after { border-top: 19px solid #E64A1A; border-left: 50px solid transparent; border-right: 50px solid transparent; }
+li.om-leaf.leaf-about-us.open .om-link:after { border-top: 19px solid #E64A1A; border-left: 50px solid transparent; border-right: 50px solid transparent; }
+
+li.leaf-legislative-agenda .om-maximenu-content h3 {color: #EAAF21;}
+li.om-leaf.leaf-legislative-agenda {width: 160px;}
+.sitearea-children li.om-leaf.leaf-legislative-agenda { background: #EAAF21; color: #fff; font-weight: bold; width: 160px; }
+.sitearea-children li.om-leaf.leaf-legislative-agenda .om-link:after { border-top: 19px solid #EAAF21; border-left: 80px solid transparent; border-right: 80px solid transparent; }
+.no-touch li.om-leaf.leaf-legislative-agenda:hover .om-link:after { border-top: 19px solid #EAAF21; border-left: 80px solid transparent; border-right: 80px solid transparent; }
+li.om-leaf.leaf-legislative-agenda.open .om-link:after { border-top: 19px solid #EAAF21; border-left: 80px solid transparent; border-right: 80px solid transparent; }
+
+li.leaf-join-the-alliance .om-maximenu-content h3 {color: #01451E;}
+li.om-leaf.leaf-join-the-alliance {width: 150px;}
+.sitearea-join li.om-leaf.leaf-join-the-alliance { background: #01451E; color: #fff; font-weight: bold; width: 150px; }
+.sitearea-join li.om-leaf.leaf-join-the-alliance .om-link:after { border-top: 19px solid #01451E; border-left: 75px solid transparent; border-right: 75px solid transparent; }
+.no-touch li.om-leaf.leaf-join-the-alliance:hover .om-link:after { border-top: 19px solid #01451E; border-left: 75px solid transparent; border-right: 75px solid transparent; }
+li.om-leaf.leaf-join-the-alliance.open .om-link:after { border-top: 19px solid #01451E; border-left: 75px solid transparent; border-right: 75px solid transparent; }
+
+li.leaf-get-involved .om-maximenu-content h3 {color: #0B1C80;}
+li.om-leaf.leaf-get-involved {width: 130px;}
+.sitearea-involve li.om-leaf.leaf-get-involved { background: #0B1C80; color: #fff; font-weight: bold; width: 130px; }
+.sitearea-involve li.om-leaf.leaf-get-involved .om-link:after { border-top: 19px solid #0B1C80; border-left: 65px solid transparent; border-right: 65px solid transparent; }
+.no-touch li.om-leaf.leaf-get-involved:hover .om-link:after { border-top: 19px solid #0B1C80; border-left: 65px solid transparent; border-right: 65px solid transparent; }
+li.om-leaf.leaf-get-involved.open .om-link:after { border-top: 19px solid #0B1C80; border-left: 65px solid transparent; border-right: 65px solid transparent; }
+
+li.leaf-news .om-maximenu-content h3 {color: #6E0B53;}
+li.om-leaf.leaf-news {width: 80px;}
+.sitearea-news li.om-leaf.leaf-news { background: #6E0B53; color: #fff; font-weight: bold; width: 80px; }
+.sitearea-news li.om-leaf.leaf-news .om-link:after { border-top: 19px solid #6E0B53; border-left: 40px solid transparent; border-right: 40px solid transparent; }
+.no-touch li.om-leaf.leaf-news:hover .om-link:after { border-top: 19px solid #6E0B53; border-left: 40px solid transparent; border-right: 40px solid transparent; }
+li.om-leaf.leaf-news.open .om-link:after { border-top: 19px solid #6E0B53; border-left: 40px solid transparent; border-right: 40px solid transparent; }
+
+.front .om-maximenu.om-maximenu-block.om-maximenu-row ul.om-menu li.leaf-home { display: block; }
+
+.om-maximenu-middle-right { overflow: hidden; }
+.om-maximenu-middle-right .block.first, .om-maximenu-middle-right .block.last {
+  background: #ebedf0;
+  padding-bottom: 519px;
+  margin-bottom: -500px;
+}
+
+/* END MAXIMENU */
+
+.front #region-content { padding-top: 0; }
+.front .region-content-inner { margin-right: 30px; }
+
+#region-sidebar-second {
+/* margin-left: 20px;
+margin-right: 0; */
+width: 180px;
+padding: 20px;
+}
+
+/* ISSUE TEMPLATE */
+.field-name-field-issue-public-policy, .field-name-field-issue-who, .field-name-field-links, .field-name-field-issue-priority {
+width: 45%;
+float: left;
+margin-bottom: 30px;
+}
+
+.field-name-field-issue-public-policy, .field-name-field-issue-priority { clear: left; margin-right: 10%; }
+.field-name-field-file-attachment { margin-bottom: 30px; }
+
+/* END ISSUE TEMPLATE */
+
+.field-name-field-blog-image {
+width: 220px;
+float: right;
+margin: 0 0 10px 10px;
+}
+
+.node-blog .submitted-name {width: 240px;}
+

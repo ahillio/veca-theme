@@ -1,0 +1,115 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+body, h1, h2, h3, h4, h5 {
+font-family: Helvetica, Arial, sans-serif;
+color: #464646;
+}
+
+h1, h2, h3, h4, h5 {
+text-transform: uppercase;
+}
+h1#page-title {
+font-size: 1.9em;
+}
+#zone-menu {
+background: rgba(255,255,255,0.5);
+height: 45px;
+}
+.om-leaf {
+font-size: 1.2em;
+}
+.om-maximenu ul.om-menu li.om-leaf .om-link {
+padding: 7px 35px;
+}
+.om-maximenu ul.om-menu li.om-leaf {
+height: 45px;
+}
+.om-maximenu .om-maximenu-content {
+top: 45px;
+}
+#zone-branding {
+padding: 20px;
+}
+#zone-content {
+background: white;
+}
+#region-content {
+padding-top:20px;
+}
+a:link, a:visited, a:hover, a:active {text-decoration:none;}
+
+.page-user #zone-user-wrapper, .page-user #zone-footer-wrapper, .front #zone-user-wrapper, .front #zone-footer-wrapper {background-color:#A31A22;}
+.sitearea-about #zone-user-wrapper, .sitearea-about #zone-footer-wrapper {background-color:#E64A1A;}
+.sitearea-children #zone-user-wrapper, .sitearea-children #zone-footer-wrapper {background-color:#EAAF21;}
+.sitearea-join #zone-user-wrapper, .sitearea-join #zone-footer-wrapper {background-color:#01451E;}
+.sitearea-involve #zone-user-wrapper, .sitearea-involve #zone-footer-wrapper {background-color:#0B1C80;}
+.sitearea-news #zone-user-wrapper, .sitearea-news #zone-footer-wrapper {background-color:#6E0B53;}
+
+#region-user-second {float:right;}
+
+#region-sidebar-second {
+padding: 30px;
+}
+.sitearea-about #region-sidebar-second {background: rgba(230,74,25,0.2);}
+.sitearea-children #region-sidebar-second {background: rgba(234,176,33,0.2);}
+.sitearea-join #region-sidebar-second {background: rgba(1,69,30,0.2);}
+.sitearea-involve #region-sidebar-second {background: rgba(10,28,128,0.2);}
+.sitearea-news #region-sidebar-second {background: rgba(111,11,83,0.2);}
+
+.sitearea-about #block-system-main {border-top: solid 2px #E64A1A;}
+.sitearea-children #block-system-main {border-top: solid 2px #EAAF21;}
+.sitearea-join #block-system-main {border-top: solid 2px #01451E;}
+.sitearea-involve #block-system-main {border-top: solid 2px #0B1C80;}
+.sitearea-news #block-system-main {border-top: solid 2px #6E0B53;}
+
+.om-maximenu ul.om-menu { width: 100%; }
+.om-maximenu ul.om-menu li.om-leaf { position: static; }
+.om-maximenu .om-maximenu-content { width: 100%; }
+
+.leaf-about-us .om-maximenu-content {border: solid 2px #E64A1A;}
+.leaf-children-s-agenda .om-maximenu-content {border: solid 2px #EAAF21;}
+.leaf-join-the-alliance .om-maximenu-content {border: solid 2px #01451E;}
+.leaf-get-involved .om-maximenu-content {border: solid 2px #0B1C80;}
+.leaf-news .om-maximenu-content {border: solid 2px #6E0B53;}
+
+.leaf-about-us:hover {background-color: #E64A1A;}
+.leaf-children-s-agenda:hover {background-color: #EAAF21;}
+.leaf-join-the-alliance:hover {background-color: #01451E;}
+.leaf-get-involved:hover {background-color: #0B1C80;}
+.leaf-news:hover {background-color: #6E0B53;}
+
+/*
+.sitearea-about
+.sitearea-children
+.sitearea-join
+.sitearea-involve
+.sitearea-news
+*/
+
+#zone-footer-wrapper {color:white;}
+
+/* FORMS */
+input {
+max-width: 100%;
+box-sizing: border-box;
+}
+
+/* HOMEPAGE */
+#block-quicktabs-social-feeds h2 {display:none;}
+
+/* ISSUE TEMPLATE */
+.field-name-field-issue-public-policy {
+width: 200px;
+float: left;
+}
+.field-name-field-issue-public-policy .field-label {
+background: #EAAF21;
+padding: 10px;
+color: white;
+font-size: 1.3em;
+}
+.field-name-field-issue-public-policy .field-items {
+background: #F0CC6E;
+padding: 10px;
+}
