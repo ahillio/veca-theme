@@ -1,6 +1,8 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+.front .branding-data { width: 580px; }
+.not-front .branding-data { width: 640px; }
 
 /* MEGA MENU */
 /*.om-maximenu ul.om-menu li.om-leaf .om-link {
@@ -42,12 +44,12 @@ li.om-leaf.leaf-get-involved {width: 140px;}
 .no-touch li.om-leaf.leaf-get-involved:hover .om-link:after { border-top: 19px solid #0B1C80; border-left: 70px solid transparent; border-right: 70px solid transparent; }
 li.om-leaf.leaf-get-involved.open .om-link:after { border-top: 19px solid #0B1C80; border-left: 70px solid transparent; border-right: 70px solid transparent; }
 
-li.leaf-news .om-maximenu-content h3 {color: #6E0B53;}
-li.om-leaf.leaf-news {width: 90px;}
-.sitearea-news li.om-leaf.leaf-news { background: #6E0B53; color: #fff; font-weight: bold; width: 90px; }
-.sitearea-news li.om-leaf.leaf-news .om-link:after { border-top: 19px solid #6E0B53; border-left: 45px solid transparent; border-right: 45px solid transparent; }
-.no-touch li.om-leaf.leaf-news:hover .om-link:after { border-top: 19px solid #6E0B53; border-left: 45px solid transparent; border-right: 45px solid transparent; }
-li.om-leaf.leaf-news.open .om-link:after { border-top: 19px solid #6E0B53; border-left: 45px solid transparent; border-right: 45px solid transparent; }
+li.leaf-updates .om-maximenu-content h3 {color: #6E0B53;}
+li.om-leaf.leaf-updates {width: 90px;}
+.sitearea-news li.om-leaf.leaf-updates { background: #6E0B53; color: #fff; font-weight: bold; width: 90px; }
+.sitearea-news li.om-leaf.leaf-updates .om-link:after { border-top: 19px solid #6E0B53; border-left: 45px solid transparent; border-right: 45px solid transparent; }
+.no-touch li.om-leaf.leaf-updates:hover .om-link:after { border-top: 19px solid #6E0B53; border-left: 45px solid transparent; border-right: 45px solid transparent; }
+li.om-leaf.leaf-updates.open .om-link:after { border-top: 19px solid #6E0B53; border-left: 45px solid transparent; border-right: 45px solid transparent; }
 
 .om-maximenu .om-maximenu-content { width: 936px; }
 .om-maximenu-content .block {

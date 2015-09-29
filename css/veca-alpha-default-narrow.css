@@ -2,6 +2,8 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
+.front .branding-data { width: 430px; }
+.not-front .branding-data { width: 480px; }
 
 img.image-left, p.image-left img { float: left; margin: 0 20px 20px 0; }
 img.image-right, p.image-right img { float: right; margin: 0 0 20px 20px; }
@@ -13,7 +15,7 @@ img.image-center, p.image-center img { display: block; width: auto; margin: 0 au
 .om-maximenu.om-maximenu-block.om-maximenu-row ul.om-menu li.om-leaf,
 .om-maximenu.om-maximenu-block.om-maximenu-row ul.om-menu li.om-leaf .om-link { float: left; height: 45px; }
 
-.leaf-home, .leaf-about-us, .leaf-legislative-agenda, .leaf-join-the-alliance, .leaf-get-involved, .leaf-news {background: none; font-weight:normal; color:#464646;}
+.leaf-home, .leaf-about-us, .leaf-legislative-agenda, .leaf-join-the-alliance, .leaf-get-involved, .leaf-updates {background: none; font-weight:normal; color:#464646;}
 
 .not-front a.om-link.link-home.om-autoscroll {color:#464646;}
 
@@ -22,7 +24,7 @@ img.image-center, p.image-center img { display: block; width: auto; margin: 0 au
 .no-touch .leaf-legislative-agenda:hover, .leaf-legislative-agenda.open {background-color: #EAAF21; color:white; }
 .no-touch .leaf-join-the-alliance:hover, .leaf-join-the-alliance.open {background-color: #01451E; color:white; }
 .no-touch .leaf-get-involved:hover, .leaf-get-involved.open {background-color: #0B1C80; color:white; }
-.no-touch .leaf-news:hover, .leaf-news.open {background-color: #6E0B53; color:white; }
+.no-touch .leaf-updates:hover, .leaf-updates.open {background-color: #6E0B53; color:white; }
 
 #navicon {display:none;}
 .js #om-maximenu-mega-menu {display: inline-block;}
@@ -74,12 +76,12 @@ li.om-leaf.leaf-get-involved {width: 130px;}
 .no-touch li.om-leaf.leaf-get-involved:hover .om-link:after { border-top: 19px solid #0B1C80; border-left: 65px solid transparent; border-right: 65px solid transparent; }
 li.om-leaf.leaf-get-involved.open .om-link:after { border-top: 19px solid #0B1C80; border-left: 65px solid transparent; border-right: 65px solid transparent; }
 
-li.leaf-news .om-maximenu-content h3 {color: #6E0B53;}
-li.om-leaf.leaf-news {width: 80px;}
-.sitearea-news li.om-leaf.leaf-news { background: #6E0B53; color: #fff; font-weight: bold; width: 80px; }
-.sitearea-news li.om-leaf.leaf-news .om-link:after { border-top: 19px solid #6E0B53; border-left: 40px solid transparent; border-right: 40px solid transparent; }
-.no-touch li.om-leaf.leaf-news:hover .om-link:after { border-top: 19px solid #6E0B53; border-left: 40px solid transparent; border-right: 40px solid transparent; }
-li.om-leaf.leaf-news.open .om-link:after { border-top: 19px solid #6E0B53; border-left: 40px solid transparent; border-right: 40px solid transparent; }
+li.leaf-updates .om-maximenu-content h3 {color: #6E0B53;}
+li.om-leaf.leaf-updates {width: 80px;}
+.sitearea-news li.om-leaf.leaf-updates { background: #6E0B53; color: #fff; font-weight: bold; width: 80px; }
+.sitearea-news li.om-leaf.leaf-updates .om-link:after { border-top: 19px solid #6E0B53; border-left: 40px solid transparent; border-right: 40px solid transparent; }
+.no-touch li.om-leaf.leaf-updates:hover .om-link:after { border-top: 19px solid #6E0B53; border-left: 40px solid transparent; border-right: 40px solid transparent; }
+li.om-leaf.leaf-updates.open .om-link:after { border-top: 19px solid #6E0B53; border-left: 40px solid transparent; border-right: 40px solid transparent; }
 
 .front .om-maximenu.om-maximenu-block.om-maximenu-row ul.om-menu li.leaf-home { display: block; }
 
@@ -89,6 +91,8 @@ li.om-leaf.leaf-news.open .om-link:after { border-top: 19px solid #6E0B53; borde
   padding-bottom: 519px;
   margin-bottom: -500px;
 }
+.block.block-menu.block-menu-id-menu-childrens-agenda.first { background-color: white; }
+.block.block-block.block-block-id-17.last { background-color: #ebedf0; float: right; }
 
 /* END MAXIMENU */
 

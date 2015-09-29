@@ -1,12 +1,19 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
-.logo-img { margin-right: 0; }
+/*.logo-img { margin-right: 0; }*/
 img#logo {max-width:100%;}
 body, h1, h2, h3, h4, h5, h6 {
 font-family: Helvetica, Arial, sans-serif;
 color: #464646;
 }
+.logo-img {
+  margin: 0 auto;
+  width: 390px;
+  display: block;
+  float: none;
+}
+
 img.image-left, p.image-left img, img.image-right, p.image-right img { float: none; display: block; width: auto; margin: 0 auto 1.5em; }
 h1, h2, h3, h4, h5, h6 {
 text-transform: uppercase; line-height: 1.1em;
@@ -87,14 +94,14 @@ padding: 30px;
 .leaf-legislative-agenda .om-maximenu-content {border: solid 2px #EAAF21;}
 .leaf-join-the-alliance .om-maximenu-content {border: solid 2px #01451E;}
 .leaf-get-involved .om-maximenu-content {border: solid 2px #0B1C80;}
-.leaf-news .om-maximenu-content {border: solid 2px #6E0B53;}
+.leaf-updates .om-maximenu-content {border: solid 2px #6E0B53;}
 
 .leaf-home {background-color: #A31A22; color:white; font-weight: bold;}
 .leaf-about-us {background-color: #E64A1A; color:white; font-weight: bold;}
 .leaf-legislative-agenda {background-color: #EAAF21; color:white; font-weight:bold;}
 .leaf-join-the-alliance {background-color: #01451E; color:white; font-weight:bold;}
 .leaf-get-involved {background-color: #0B1C80; color:white; font-weight:bold;}
-.leaf-news {background-color: #6E0B53; color:white; font-weight:bold;}
+.leaf-updates {background-color: #6E0B53; color:white; font-weight:bold;}
 
 .om-maximenu-content {font-weight: normal; color: #464646; font-size: .9em; }
 .om-maximnue-middle-right, .om-maximenu-no-style .om-maximenu-middle-right {padding: 0;}
